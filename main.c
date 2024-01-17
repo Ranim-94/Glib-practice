@@ -4,14 +4,14 @@
 
 #include<stdio.h>
 #include"hello_glib.h"
-#include"oop_glib.h"
+#include"oop_point_demo.h"
 
 
-#define DEMO_CHOICE 0
+#define DEMO_CHOICE 1
 
 int main(void) {
  
-int demo_list_choice[] = {0,1};
+int demo_list_choice[] = {0,1,2};
 
 // selecting a demo from demo_list_choice[]
 int demo_to_run = demo_list_choice[DEMO_CHOICE];
@@ -25,7 +25,7 @@ case 0:
 
 case 1: 
     
-    run_oop_glib(); // demo #1
+    run_oop_point(); // demo #1
     break;
 
 default:
